@@ -1,0 +1,17 @@
+{
+    "name": "W06",
+    "version": "0.0.1",
+    "description": "simple chat app by vamsi",
+    "main": "server.js",
+    "dependencies": {
+        "express": "latest",
+        "socket.io": "latest"
+    },
+    "author": "Ravva Vamsi",
+    "homepage": "https://bitbucket.org/rsmsvamsi/w06",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/rsmsvamsi/w06"
+    },
+     "license": "Apache-2.0"
+}

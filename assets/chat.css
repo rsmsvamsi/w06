@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 1.8em Helvetica, Arial; background-color: #00A5AC }
+#chatApp{
+	width: 600px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border: 2px solid #cfcfcf;
+    border-radius: 5px;
+    background: #ffffff;
+}
+form { background: #00A5AC; padding: 3px;  width: 100%; }
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form #button { color:#FFF; background: #2D9F0B; border: none; padding: 10px;  width: 9%; }
+#messages { list-style-type: none; margin: 0; padding: 0; height: 600px; overflow-x: auto; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+#notifyUser { position: fixed; bottom: 42px; width: 100%; }
